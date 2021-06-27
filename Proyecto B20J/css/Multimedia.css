@@ -53,3 +53,47 @@ body {
     height: 700px;
     text-align: center;
 }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn7{
+    display: block;
+    width: 130px;
+    height: 20px;
+    outline: none;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: all .25s;
+    z-index: 1;
+    position: relative;
+}
+
+.btn7:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+    transition: all .25s;
+    z-index: -1;
+}
+
+
+.btn7:hover{
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn7:hover::before{
+    height: 100%;
+}
