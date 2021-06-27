@@ -1,0 +1,140 @@
+h1{color: white; font-size: 50px;}
+div.páginas{text-align: right;}	
+div.columna1{background-color: limegreen;}
+div.columna2{background-color: limegreen;}
+h3{font-size: 4
+    0;}
+h4{font-size: 45px;}
+p{font-size: 20px;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: block;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: all .25s;
+    z-index: 1;
+    position: relative;
+}
+
+.btn:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+    transition: all .25s;
+    z-index: -1;
+}
+
+
+.btn:hover{
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn:hover::before{
+    height: 100%;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn2{
+    display: block;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: all .25s;
+    z-index: 1;
+    position: relative;
+}
+
+.btn2:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+    transition: all .25s;
+    z-index: -1;
+}
+
+
+.btn2:hover{
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn2:hover::before{
+    height: 100%;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn3{
+    display: block;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: all .25s;
+    z-index: 1;
+    position: relative;
+}
+
+.btn3:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, green, rgb(152, 233, 152));
+    transition: all .25s;
+    z-index: -1;
+}
+
+
+.btn3:hover{
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn3:hover::before{
+    height: 100%;
+}
